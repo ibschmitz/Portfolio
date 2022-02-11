@@ -53,6 +53,41 @@ p {
 .socials a:hover {
   color: saddlebrown;
 }
+.aboutme {
+  background-color: azure;
+  color: black;
+  padding: 5vw 10vw;
+}
+.portfolio {
+  margin: 8px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project {
+  width: 40vw;
+  margin: 1vh 3vw;
+}
+.project1-img {
+  background-color: plum;
+  height: 12em;
+}
+.project2-img {
+  background-color: lightgreen;
+  height: 12em;
+}
+.project3-img {
+  background-color: lightskyblue;
+  height: 12em;
+}
+.project-text {
+  background-color: red;
+  padding: 1vh;
+}
+.project-text h3 {
+  text-align: center;
+}
 .getintouch {
   width: 100%;
   display: flex;
