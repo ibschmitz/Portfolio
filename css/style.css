@@ -51,7 +51,7 @@ p {
   font-size: 20px;
 }
 .socials a:hover {
-  color: brown;
+  color: saddlebrown;
   font-size: 22px;
   transition: 0.2s ease-in-out;
 }
