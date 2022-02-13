@@ -145,3 +145,8 @@ footer {
     margin: 10vw;
   }
 }
+@media screen and (max-height: 400px) {
+  header {
+    height: 200px;
+  }
+}
