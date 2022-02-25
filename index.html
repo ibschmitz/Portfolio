@@ -13,6 +13,12 @@
   </head>
   <body>
     <header>
+      <nav class='mobileview'><i class="fa-solid fa-bars"></i></nav>
+      <nav class='desktopview'> 
+        <a href="#aboutme">About me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#projects">Projects</a>
+      </nav>
       <div class="socials">
         <a href="https://www.linkedin.com/in/italo-benjamin-schmitz-6029467b/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/ibschmitz" target="blank"><i class="fa-brands fa-github"></i></a>
@@ -25,7 +31,7 @@
         <a href="#getintouch"><button>Contact me</button></a>
       </section>
     </header>
-    <section class="aboutme">
+    <section id="aboutme">
       <h2>About me</h2>
       <p>
         I'm a front-end developer from Bedford, UK. I have experience in
@@ -33,9 +39,9 @@
         Beard
       </p>
     </section>
-    <section class="portfolio">
+    <section id="portfolio">
       <h2>Portfolio</h2>
-      <div class="projects">
+      <div id="projects">
         <div class="project">
           <div class="project1-img"></div>
           <div class="project-text">
@@ -100,4 +106,5 @@
       <p>&copy Italo Benjamin Schmitz</p>
     </footer>
   </body>
+  <script src="./js/script.js"></script>
 </html>

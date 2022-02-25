@@ -13,6 +13,20 @@ html {
   background-color: black;
   color: white;
 }
+nav {
+  display: flex;
+  position: fixed;
+  background-color: brown;
+}
+nav i {
+  margin: 8px;
+}
+nav a {
+  text-decoration: none;
+  margin: 8px 8px;
+  color: white;
+  font-weight: bold;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/markus-spiske-iar-afB0QQw-unsplash.jpg");
@@ -56,15 +70,15 @@ p {
 .socials a:hover {
   color: saddlebrown;
 }
-.aboutme {
+#aboutme {
   background-color: azure;
   color: black;
   padding: 5vw 10vw;
 }
-.portfolio {
+#portfolio {
   margin: 8px;
 }
-.projects {
+#projects {
   display: flex;
   flex-wrap: wrap;
 }
@@ -124,6 +138,9 @@ footer {
   text-align: center;
 }
 @media screen and (min-width: 600px) {
+  .mobileview {
+    display: none;
+  }
   .project {
     width: 25vw;
   }
@@ -136,13 +153,16 @@ footer {
   }
   .desktopview {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: center; */
   }
   .desktopview .socials {
     display: flex;
     flex-direction: column;
     margin: 10vw;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
   }
 }
 @media screen and (max-height: 400px) {
