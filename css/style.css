@@ -18,6 +18,9 @@ nav {
   position: fixed;
   background-color: brown;
 }
+#mobilenav {
+  display: none;
+}
 nav i {
   margin: 8px;
 }
@@ -78,6 +81,7 @@ p {
 #portfolio {
   margin: 8px;
 }
+
 #projects {
   display: flex;
   flex-wrap: wrap;
